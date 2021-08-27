@@ -3082,38 +3082,6 @@ header .navbar-expand .navbar-brand img {
   border-bottom: 1px solid var(--secondary-l-color);
 }
 
-.breadcrumb {
-  margin: 0;
-  background: none;
-  justify-content: center;
-  color: inherit;
-}
-
-.breadcrumb-item {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.breadcrumb-item a:not(.btn) {
-  color: inherit;
-}
-
-.breadcrumb-item a:hover {
-  color: var(--primary-color);
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  font-weight: 400;
-}
-
-.breadcrumb-item.active {
-  color: var(--primary-color);
-}
-
-.breadcrumb-item.active:hover {
-  color: var(--primary-color);
-}
-
 .share-list {
   display: -webkit-inline-box;
 }
