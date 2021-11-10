@@ -269,7 +269,7 @@
           <div class="col-12 col-md-6 col-lg-4 item">
             <div class="card featured">
               <i class="icon icon-location-pin"></i>
-              <h4>14435 NW 63rd Street Kansas City, MO 64152</h4>
+              <h4>Kansas City, MO</h4>
               <p class="mb-1">
                 Come visit us from Tuesday to Friday from 9 am to 2 pm.
               </p>
@@ -353,7 +353,7 @@
                     <li class="nav-item">
                       <a href="#" class="nav-link">
                         <i class="icon-location-pin mr-2"></i>
-                        Office Street, 123
+                        Contact Us
                       </a>
                     </li>
                     <li class="nav-item">
@@ -712,11 +712,7 @@
       // add marker to the map
       marker = L.marker([lat, lon]).addTo(map);
       // add popup to the marker
-      marker
-        .bindPopup(
-          "<b>AnR Technologies, LLC</b><br />745 Broadway Blvd <br />Kansas City, MO"
-        )
-        .openPopup();
+      marker.bindPopup("<br>AnR Technologies, LLC</br><br />").openPopup();
     </script>
 
     <!-- #endregion Global ========================= -->
