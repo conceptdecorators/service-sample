@@ -3956,6 +3956,7 @@ footer .brand .logo {
 footer .brand .logo img {
   width: auto;
   height: var(--footer-brand-height);
+  border-radius: 30%;
 }
 
 footer .brand a:hover {
