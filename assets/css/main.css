@@ -2258,115 +2258,6 @@ header .navbar-expand .navbar-brand img {
 
 /* #region Widget */
 
-.widget-author .author {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-
-.widget-author .author h4 {
-  margin: 0;
-}
-
-.widget-author .author img {
-  width: 100%;
-  height: 100%;
-  max-width: 100px;
-  margin-right: 20px;
-}
-
-.widget-author .biography {
-  margin: 12.5px 0 2.5px;
-}
-
-.widget-categories .list-group-flush .list-group-item:first-child {
-  padding-top: 0;
-  border-top-width: 0;
-}
-
-.widget-share-this li {
-  margin: 0;
-}
-
-.widget-share-this a {
-  padding: 0;
-}
-
-.widget-gallery .gallery {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.widget-gallery .gallery img {
-  border-radius: 4px;
-}
-
-.widget-services li {
-  display: flex;
-  align-items: start;
-}
-
-.widget-services .list-group-flush .list-group-item:first-child {
-  border-top-width: 1px;
-}
-
-.widget-services .list-group-flush .list-group-item:last-child {
-  border-bottom-width: 1px;
-}
-
-.widget-services li a {
-  display: flex;
-  align-items: start;
-}
-
-.widget-carousel .mid-slider-simple {
-  padding: 0;
-}
-
-.sidebar .widget-carousel .item {
-  margin-bottom: 0;
-}
-
-.widget-carousel .card {
-  padding: 25px 5px;
-  background-color: var(--primary-bg-color-3);
-  box-shadow: none;
-}
-
-.body-mode-dark .widget-carousel .card {
-  background-color: var(--secondary-bg-color-3);
-  box-shadow: none;
-}
-
-.widget-carousel .card p {
-  color: var(--primary-p-color);
-}
-
-.widget-carousel .card .icon {
-  margin: 0 auto 1.5rem;
-  background-image: -webkit-linear-gradient(
-    45deg,
-    var(--secondary-color) 15%,
-    var(--primary-color) 65%
-  );
-  background-image: linear-gradient(
-    45deg,
-    var(--secondary-color) 15%,
-    var(--primary-color) 65%
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.widget-carousel .card img.icon {
-  width: 100%;
-  max-width: 90px;
-  height: auto;
-  border-radius: 100%;
-}
-
 /* #endregion Widget */
 
 /*----------------------------------------------
@@ -2420,19 +2311,6 @@ header .navbar-expand .navbar-brand img {
 
 .form-control.invalid {
   border-color: var(--invalid-color);
-}
-
-.checkbox-row {
-  display: flex;
-  align-items: center;
-}
-
-.checkbox-row input {
-  margin: 0 0 1.5px 0;
-}
-
-.checkbox-row p {
-  margin: 1rem;
 }
 
 textarea.form-control {
@@ -2501,11 +2379,6 @@ button:disabled {
 
 .multi-step-form input {
   width: 100%;
-}
-
-.multi-step-form input[type="checkbox"] {
-  width: 18px;
-  height: 18px;
 }
 
 .multi-step-form .mask-radius {
